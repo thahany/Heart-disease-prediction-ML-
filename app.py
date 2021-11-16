@@ -63,7 +63,7 @@ def main():
     # restecg=st.slider('Resting electrocardiographic results (0 = normal; 1 = having ST-T; 2 = hypertrophy)','')
     thalach=st.text_input('Maximum heart rate achieved',' ')
     # thalach=st.slider('Maximum heart rate achieved', 65,210)
-    exang=st.text_input('Exercise induced angina 1 = es; 0 = No',' ')
+    exang=st.text_input('Exercise induced angina 1 = yes; 0 = No',' ')
     # oldpeak=st.text_input('ST depression induced by exercise relative to rest (0-7)',' ')
     slope=st.text_input('The slope of the peak exercise ST segment (1 = upsloping; 2 = flat; 3 = downsloping)', ' ')
     ca=st.text_input('Number of major vessels (0-3) colored by flourosopy', ' ')
@@ -80,7 +80,7 @@ def main():
         df_trans = df_trans.T
         result=model.predict(df_trans)
         if result==0:
-             result="Hurrah! You are safe, Enjoy"
+             result="Your heart health is good, Enjoy"
         else:
              result="Sorry you Have symptoms of Heart Disease"
             
