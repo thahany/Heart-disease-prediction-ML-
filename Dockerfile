@@ -5,5 +5,4 @@ COPY requirements.txt .
 RUN pip3 install -r requirements.txt
 WORKDIR /app
 COPY . .
-EXPOSE 80
-CMD ["streamlit","run","app.py","--server.port", "80"]
+CMD ["streamlit","run","app.py"]
