@@ -56,7 +56,7 @@ def main():
     cp=st.text_input('Chest pain (1 = typical angina; 2 = atypical angina; 3 = non-anginal pain; 4 = asymptomatic)',' ')
     trestbps=st.text_input('Resting blood pressure in mm Hg, Range;90-200')
     # trestbps=st.slider('Resting blood pressure in mm Hg ', 90,200)
-    chol=st.text_input('Serum cholestoral in mg/dl, Range;126-564')
+    chol=st.text_input('Serum cholesterol in mg/dl, Range;126-564')
     # chol=st.slider('Serum cholestoral in mg/dl', 126,564)
     fbs=st.text_input('Fasting blood sugar > 120 mg/dl, (1 = true; 0 = false)',' ')
     restecg=st.text_input('Resting electrocardiographic results (0 = normal; 1 = having ST-T; 2 = hypertrophy)','')
@@ -66,7 +66,7 @@ def main():
     exang=st.text_input('Exercise induced angina 1 = yes; 0 = No',' ')
     # oldpeak=st.text_input('ST depression induced by exercise relative to rest (0-7)',' ')
     slope=st.text_input('The slope of the peak exercise ST segment (1 = upsloping; 2 = flat; 3 = downsloping)', ' ')
-    ca=st.text_input('Number of major vessels (0-3) colored by flourosopy', ' ')
+    ca=st.text_input('Number of major vessels (0-3) colored by flouroscopy', ' ')
     thal=st.text_input('Hemoglobin level (1 = normal, 2 = fixed defect, 3 = defect)', ' ')
               
     result =""
