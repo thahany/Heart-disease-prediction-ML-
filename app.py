@@ -92,7 +92,7 @@ def main():
         # st.text("Github link: https://github.com/ayushkesh/Heart-disease-prediction-ML- ")   
         
     html_temp1 = """
-    <div style="background-color:green;"> 
+    <div style="background-color:blue;"> 
     <p style="color:white;text-align:center;" >By: <b>Raouf & Thahany</b> </p>
     </div>
     """
